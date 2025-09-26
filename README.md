@@ -5,4 +5,7 @@ This repo documents the setup, configs, and automation for my homelab environmen
 
 
 
-![Initial Setup](Screenshots/init.png)
+## 📸 Screenshots
+
+### Initial Setup
+![Initial Setup](./Screenshots/init.png)
