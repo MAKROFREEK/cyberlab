@@ -20,7 +20,7 @@ This repo documents the setup, configs, and automation for my homelab environmen
   - RAIDZ10 → max performance (Plex/Jellyfin media servers)  
 
 - **Node 2 – Proxmox Backup Server (PBS)**  
-  - ZFS RAIDZ6 → double parity + storage efficiency  
+  - RAIDZ6 → double parity + storage efficiency  
   - Samba + Nextcloud file share  
   - Automated daily, weekly, monthly backups  
 
