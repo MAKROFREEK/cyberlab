@@ -7,7 +7,7 @@ This repo documents the setup, configs, and automation for my homelab environmen
 
 ## 🖥️ Hardware Overview
 
-### Dell PowerEdge R240 (x2)
+### Dell PowerEdge R320 (x2)
 - **Specs:**  
   - Xeon E5-2407  
   - 32GB RAM
