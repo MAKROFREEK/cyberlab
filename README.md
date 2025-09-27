@@ -10,8 +10,8 @@ This repo documents the setup, configs, and automation for my homelab environmen
 ### Dell PowerEdge R240 (x2)
 - **Specs:**  
   - Xeon E5-2407  
-  - 32GB RAM each  
-  - 8 × 1TB HDD each  
+  - 32GB RAM
+  - 8 × 1TB SAS HDD
 
 - **Node 1 – Proxmox VE**  
   - Nvidia Quadro P600 GPU passthrough  
@@ -20,9 +20,9 @@ This repo documents the setup, configs, and automation for my homelab environmen
   - RAIDZ10 → max performance (Plex/Jellyfin media servers)  
 
 - **Node 2 – Proxmox Backup Server (PBS)**  
-  - RAIDZ6 → double parity + storage efficiency  
   - Samba + Nextcloud file share  
-  - Automated daily, weekly, monthly backups  
+  - Automated daily, weekly, monthly backups
+  - RAIDZ6 → double parity + storage efficiency  
 
 ---
 
