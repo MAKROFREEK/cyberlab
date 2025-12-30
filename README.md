@@ -21,9 +21,11 @@ This repo documents the setup, configs, and automation for my homelab environmen
   - LXC containers (Arr stack)  
   - Linux KVM (Kali VM)  
   - RAIDZ10 → max performance (Plex/Jellyfin media servers)
+  - Windows AD ENV pt1
  
 - **Node 2 – Proxmox FILES**
   - Minecraft Servers
+  - Windows AD ENV pt2
   - PBS
   - Fileshare
 
