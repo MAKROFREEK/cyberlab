@@ -12,7 +12,7 @@ This repo documents the setup, configs, and automation for my homelab environmen
   ~~- Xeon E5-2407~~
   - Xeon E5-2470 v2 (MERRY CHRISTMAS)
   ~~- 32GB RAM DDR4~~
-  -- 96GB RAM DDR4  (MERRY CHRISTMAS)
+  - 96GB RAM DDR4  (MERRY CHRISTMAS)
   - 8 × 1TB SAS HDD
   - Intel X520-DA2 (10Gb connction lets go)
 
