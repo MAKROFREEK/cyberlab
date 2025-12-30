@@ -7,11 +7,14 @@ This repo documents the setup, configs, and automation for my homelab environmen
 
 ## 🖥️ Hardware Overview
 
-### Dell PowerEdge R320 (x2)
+### Dell PowerEdge R320 (X2)
 - **Specs:**  
-  - Xeon E5-2407  
-  - 32GB RAM
+  ~~- Xeon E5-2407~~
+  - Xeon E5-2470 v2 (MERRY CHRISTMAS)
+  ~~- 32GB RAM DDR4~~
+  -- 96GB RAM DDR4  (MERRY CHRISTMAS)
   - 8 × 1TB SAS HDD
+  - Intel X520-DA2 (10Gb connction lets go)
 
 - **Node 1 – Proxmox VE**  
   - Nvidia Quadro P600 GPU passthrough  
