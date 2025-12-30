@@ -16,16 +16,20 @@ This repo documents the setup, configs, and automation for my homelab environmen
   - 8 × 1TB SAS HDD
   - Intel X520-DA2 (MERRY 10 GIGABIT CHRISTMAS)
 
-- **Node 1 – Proxmox VE**  
+- **Node 1 – Proxmox ARR**  
   - Nvidia Quadro P600 GPU passthrough  
   - LXC containers (Arr stack)  
   - Linux KVM (Kali VM)  
-  - RAIDZ10 → max performance (Plex/Jellyfin media servers)  
+  - RAIDZ10 → max performance (Plex/Jellyfin media servers)
+ 
+- **Node 2 – Proxmox FILES**
+  - Minecraft Servers
+  - PBS
+  - Fileshare
 
-- **Node 2 – Proxmox Backup Server (PBS)**  
-  - Samba/File share
+- **Node 3 – Proxmox PBS**  
   - Automated daily, weekly, monthly backups
-  - RAIDZ6 → double parity + storage efficiency  
+  - 1 TB allocated, aggressive purge rules to keep 4 backups per vm/lxc.
 
 ---
 
