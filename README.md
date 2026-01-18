@@ -19,15 +19,15 @@ This repo documents the setup, configs, and automation for my homelab environmen
 - **Node 1 – Proxmox ARR**  
   - Nvidia Quadro P600 GPU passthrough  
   - LXC containers (Arr stack)  
-  - Linux KVM (Kali VM)  
-  - RAIDZ10 → max performance (Plex/Jellyfin media servers)
+  - RAIDZ2 → Storage capacity in favor of speed.
   - Windows AD ENV pt1
  
 - **Node 2 – Proxmox FILES**
   - Minecraft Servers
-  - Windows AD ENV pt2
+  - RAIDZ2 → Storage capacity in favor of speed.
+  - Windows AD ENV
   - PBS
-  - Fileshare
+  - SMB/CIFS Share
 
 - **Node 3 – Proxmox PBS**  
   - Automated daily, weekly, monthly backups
