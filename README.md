@@ -45,7 +45,7 @@ This repo documents the setup, configs, and automation for my homelab environmen
 
 ### Rackmounted PC (Workhorse)
 - Intel i7-9700K (OC 4.9–5.0 GHz, custom water loop)  
-- RTX 2070 (moved to pcie 16x slot after using it in pcie4 for half a year 🫢)
+- RTX 2070 8GB VRAM
 - 32GB DDR4 RAM  
 - ~~Mixed drives for flexible workloads~~
 - Removed 1 TB HDD, added 1 256GB SSD, setup 4 drive raid pool in RAID10 for /home/ partition.
