@@ -18,13 +18,11 @@ This repo documents the setup, configs, and automation for my homelab environmen
 
 - **Node 1 – Proxmox ARR**  
   - Nvidia Quadro P600 GPU passthrough  
-  - LXC containers (Arr stack)  
   - RAIDZ2 → Storage capacity in favor of speed.
-  - Windows AD ENV pt1
  
 - **Node 2 – Proxmox FILES**
   - Minecraft Servers
-  - RAIDZ2 → Storage capacity in favor of speed.
+  - RAIDZ2 → Storage capacity in favor ofspeed.
   - Windows AD ENV
   - PBS
   - SMB/CIFS Share
