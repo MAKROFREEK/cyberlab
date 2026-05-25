@@ -62,5 +62,11 @@ This repo documents the setup, configs, and automation for my homelab environmen
 
 ## 📸 Screenshots
 
-### Initial Setup
-![Initial Setup](./Screenshots/init.jpg)
+### Hardware
+![Hardware](./Screenshots/init.jpg)
+
+### Overview
+![Overview](./Screenshots/overview.png)
+
+### ETC Backups
+![Backups](./Screenshots/Screenshot_2026-05-25_16-06-55.png)
