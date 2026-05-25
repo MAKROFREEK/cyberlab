@@ -21,24 +21,27 @@ This repo documents the setup, configs, and automation for my homelab environmen
   - RAIDZ2 → Storage capacity in favor of speed.
  
 - **Node 2 – Proxmox FILES**
-  - Minecraft Servers
-  - RAIDZ2 → Storage capacity in favor ofspeed.
+  - RAIDZ2 → Storage capacity in favor of speed.
   - Windows AD ENV
   - PBS
-  - SMB/CIFS Share
+  - ~~SMB/CIFS Share~~
+  - Minecraft Servers
 
-- **Node 3 – Proxmox PBS**  
-  - Automated daily, weekly, monthly backups
-  - 1 TB allocated, aggressive purge rules to keep 4 backups per vm/lxc.
+
+- **VM – Proxmox PBS**
+  - Trying to keep the storage as empty as possible so I run very lean backups daily backups. 
+  - 256 GB allocated, aggressive purge/retention rules to keep 1 backups per vm/lxc.
+  - Additonally offload configs of each node onto a flash drive so in case of OS failure I can reinstall on a fresh drive import my configs and restore to its former self.
 
 ---
 
 ### Custom Build #1
-- DECOMMISSIONED, moved all servers to files
+- ~~DECOMMISSIONED, moved all servers to files~~
 - ~~Intel i5 (4 cores), 32GB RAM~~
 - ~~2 × 256GB SSD~~
 - ~~Roles: **Minecraft servers** + **Windows AD lab**~~
-
+- Added 1G NIC (Intel 82576 Controller) 2x RJ45
+- Now running OPNsense (added Zenarmor to turn it into NGFW!) 
 ---
 
 ### Rackmounted PC (Workhorse)
@@ -46,8 +49,8 @@ This repo documents the setup, configs, and automation for my homelab environmen
 - RTX 2070 8GB VRAM
 - 32GB DDR4 RAM  
 - ~~Mixed drives for flexible workloads~~
-- Removed 1 TB HDD, added 1 256GB SSD, setup 4 drive raid pool in RAID10 for /home/ partition.
-- Reinstalled Arch for latest drivers and to match new laptop.
+- Removed 1 TB HDD, added 1 256GB SSD, setup 4 drive raid pool in RAID10 for /home/ partition. (overkill? yes. fun? also yes.)
+- Reinstalled Arch for latest drivers recently.
 
 ---
 
