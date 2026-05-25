@@ -50,7 +50,7 @@ This repo documents the setup, configs, and automation for my homelab environmen
 - 32GB DDR4 RAM  
 - ~~Mixed drives for flexible workloads~~
 - Removed 1 TB HDD, added 1 256GB SSD, setup 4 drive raid pool in RAID10 for /home/ partition. (overkill? yes. fun? also yes.)
-- Reinstalled Arch for latest drivers recently.
+- Reinstalled Arch for latest NVIDIA drivers recently.
 
 ---
 
